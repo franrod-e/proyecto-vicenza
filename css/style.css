@@ -1,0 +1,895 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@200;300;600&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*---------HEADER--------*/
+
+header{
+    position: sticky;
+    top: 0;
+}
+
+.navbar img{
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.enlaces{
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size: 25px;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.enlaces:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+/*--------MAIN--------*/
+
+/*--------HERO--------*/
+
+.hero{
+    background-image: url(../img/fotohero.JPG);
+    width: 100%;
+    height: calc(100vh - 126px);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+.hero h2{
+    font-size: 75px;
+}
+
+.hero p{
+    font-size: 25px;
+}
+
+/*--------LO MEJOR Y PARA VOS--------*/
+
+.lomejor{
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+.lomejor h2{
+    font-size: 60px;   
+    padding-top: 20px;             
+}
+
+.lomejor p{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+/*--------PRODUCTOS 1--------*/
+
+.productos1{
+    width: 100%;
+    height: 475px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+.productos1 img{
+    width: 100%;
+    height: 475px;
+    box-shadow: 10px 11px 39px 0px rgba(0,0,0,0.49);
+-webkit-box-shadow: 10px 11px 39px 0px rgba(0,0,0,0.49);
+-moz-box-shadow: 10px 11px 39px 0px rgba(0,0,0,0.49);
+}
+
+.productos1 h3{
+    padding-top: 10px;
+}
+
+.productos1 a{
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.productos1 a:hover{
+    text-decoration: underline;
+}
+
+/*--------PRODUCTOS 2--------*/
+
+.productos2{
+    width: 100%;
+    height: 475px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 25px;
+    font-family: 'Ysabeau SC', sans-serif;
+    margin-bottom: 80px;
+}
+
+.productos2 img{
+    width: 100%;
+    height: 475px;
+    box-shadow: 10px 11px 39px 0px rgba(0,0,0,0.49);
+-webkit-box-shadow: 10px 11px 39px 0px rgba(0,0,0,0.49);
+-moz-box-shadow: 10px 11px 39px 0px rgba(0,0,0,0.49);
+}
+
+.productos2 h3{
+    padding-top: 10px;
+}
+
+.productos2 a{
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.productos2 a:hover{
+    text-decoration: underline;
+}
+
+/*--------SERVICIOS--------*/
+
+.row{
+    width: 90%;
+    margin: 0 auto;
+    font-family: 'Ysabeau SC', sans-serif;
+    color: black;
+}
+
+.col{
+    padding: 0px 30px 60px 30px;
+}
+
+.card-body h5{
+    font-size: 25px;
+}
+
+.card-body p{
+    font-size: 15px;
+}
+
+/*--------FOOTER--------*/
+
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8F9FA;
+}
+
+.footer1{
+    background-color: #F8F9FA;
+    display: flex;
+    justify-content: center;
+    align-items: normal;
+    text-align: center;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+.footer2{
+    background-color: #F8F9FA;
+    display: flex;
+    justify-content: center;
+    align-items: normal;
+    text-align: center;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+.footer img{
+    width: 25px;
+    padding-bottom: 5px;
+}
+
+.footer div{
+    padding: 30px 15px 20px 15px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: black;
+}
+
+/*---NOSOTROS---*/
+
+.grid-container-nosotros{
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 270px 270px;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Ysabeau SC', sans-serif;
+    color: black;
+}
+
+.grid-container-nosotros div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container-nosotros div h2{
+    width: 80%;
+    font-size: 45px;
+}
+
+.claim{
+    font-style: italic;
+}
+
+.grid-container-nosotros div p{
+    width: 80%;
+    font-size: 25px;
+}
+
+.grid-container-nosotros div:nth-child(odd){
+    background-color: #F8F9FA;
+    color: rgb(0, 0, 0);
+}
+
+.background-joyerosdeconfianza{
+    grid-column: 1 / span 2;
+    grid-row: span 2;
+    background-image: url(../img/fotojoyerosdeconfianza.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.background-nosaseguramos{
+    grid-column: 1 / span 2;
+    grid-row: span 2;
+    background-image: url(../img/fotolocal.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.background-calidadyestilo{
+    grid-column: 1 / span 2;
+    grid-row: span 2;
+    background-image: url(../img/diseñoitaliano.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.background-paratodalavida{
+    grid-column: 1 / span 2;
+    grid-row: span 2;
+    background-image: url(../img/alianzasnosotros.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.background-nuestroobjetivo{
+    grid-column: 1 / span 2;
+    grid-row: span 2;
+    background-image: url(../img/nuestroobjetivo.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*---------CONTACTO--------*/
+
+.contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Ysabeau SC', sans-serif;
+    color: black;
+}
+
+.envianos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto 10px auto;
+}
+
+.formulario{
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 52px;
+}
+
+/*---------ALIANZAS--------*/
+
+.titulo-alianzas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Ysabeau SC', sans-serif;
+    color: black;
+    margin: 10px;
+}
+
+.titulo-alianzas h2{
+    font-size: 60px;
+}
+
+.titulo-alianzas p{
+    font-size: 20px;
+}
+
+.galeria-alianzas{
+    width: 100%;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 350px;
+    gap: 10px;
+}
+
+.galeria-alianzas div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-5{
+    grid-row: span 2;
+}
+
+.img-9{
+    grid-row: span 3;
+}
+
+/*---------ALHAJAS--------*/
+
+.titulo-alhajas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Ysabeau SC', sans-serif;
+    color: black;
+    margin: 10px;
+}
+
+.titulo-alhajas h2{
+    font-size: 60px;
+}
+
+.titulo-alhajas p{
+    font-size: 20px;
+}
+
+.galeria-alhajas{
+    width: 100%;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 350px;
+    gap: 10px;
+}
+
+.galeria-alhajas div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*---------RELOJES--------*/
+
+.titulo-relojes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Ysabeau SC', sans-serif;
+    color: black;
+    margin: 10px;
+}
+
+.titulo-relojes h2{
+    font-size: 60px;
+}
+
+.titulo-relojes p{
+    font-size: 20px;
+}
+
+.galeria-relojes{
+    width: 100%;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 350px;
+    gap: 10px;
+}
+
+.galeria-relojes div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*---------RELOJES--------*/
+
+.titulo-mates{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Ysabeau SC', sans-serif;
+    color: black;
+    margin: 10px;
+}
+
+.titulo-mates h2{
+    font-size: 60px;
+}
+
+.titulo-mates p{
+    font-size: 20px;
+}
+
+.galeria-mates{
+    width: 100%;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 350px;
+    gap: 10px;
+}
+
+.galeria-mates div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-1{
+    grid-row: span 3;
+}
+
+.img-2{
+    grid-row: span 3;
+}
+
+.img-3{
+    grid-row: span 2;
+}
+
+.img-4{
+    grid-row: span 2;
+}
+
+/*---MEDIAS QUERIES---*/
+
+/*---------INDEX, HEADER Y FOOTER--------*/
+
+/*---------HEADER--------*/
+
+@media screen and (max-width: 1024px){
+    header{
+        position: static;
+    }    
+}
+
+@media screen and (max-width: 1099px){
+    .enlaces{
+        font-size: 20px;
+    }
+}
+
+/*--------MAIN--------*/
+
+/*--------HERO--------*/
+
+@media screen and (max-width: 980px){
+    .hero h2{
+        font-size: 65px;
+    }
+}
+
+@media screen and (max-width: 980px){
+    .hero p{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 855px){
+    .hero h2{
+        font-size: 55px;
+    }
+}
+
+@media screen and (max-width: 855px){
+    .hero p{
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .hero h2{
+        width: 80%;
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .hero p{
+        width: 80%;
+        font-size: 15px;
+    }
+}
+
+/*--------LO MEJOR Y PARA VOS--------*/
+
+@media screen and (max-width: 675px){
+    .lomejor h2{
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 675px){
+    .lomejor p{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 535px){
+    .lomejor h2{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 535px){
+    .lomejor p{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .lomejor h2{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .lomejor p{
+        font-size: 10px;
+    }
+}
+
+/*--------PRODUCTOS 1--------*/
+
+@media screen and (max-width: 1465px){
+    .productos1{
+        height: 400px;
+    }
+    .productos1 img{
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 1230px){
+    .productos1{
+        height: 300px;
+    }
+    .productos1 img{
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 930px){
+    .productos1{
+        height: 225px;
+    }
+    .productos1 img{
+        height: 225px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .productos1{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 695px;
+    }
+    .productos1 img{
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 930px){
+    .productos1{
+        margin-bottom: 0px;
+    }
+    .alhajas img{
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 535px){
+    .productos1{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 490px;
+    }
+    .productos1 img{
+        height: 200px;
+    }
+}
+
+/*--------PRODUCTOS 2--------*/
+
+@media screen and (max-width: 1465px){
+    .productos2{
+        height: 400px;
+    }
+    .productos2 img{
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 1230px){
+    .productos2{
+        height: 300px;
+    }
+    .productos2 img{
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 930px){
+    .productos2{
+        height: 225px;
+        margin-top: 50px;
+    }
+    .alhajas h3{
+        padding-bottom: 25px;
+    }
+    .productos2 img{
+        height: 225px;
+        margin-top: 0px;
+    }
+    .alianzas img{
+        margin-top: 25px;
+    }
+    .matesybombillas img{
+        margin-top: 25px;
+    }   
+}
+
+@media screen and (max-width: 930px){
+    .matesybombillas img{
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .productos2{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 695px;
+        margin-top: 0px;
+    }
+    .productos2 img{
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 535px){
+    .productos2{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 490px;
+    }
+    .productos2 img{
+        height: 200px;
+    }
+}
+
+/*--------SERVICIOS--------*/
+
+@media screen and (max-width: 853px){
+    .card-body h5{
+        font-size: 20px;
+    }
+    .card-body p{
+        font-size: 12px;
+    }
+    .col{
+        margin-top: 0px;
+    }
+    .row{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 838px){
+    .card-body h5{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 789px){
+    .card-body h5{
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .card-body h5{
+        font-size: 20px;
+    }
+}
+
+/*--------FOOTER--------*/
+
+@media screen and (max-width: 575px){
+    .footer{
+        flex-direction:column;
+    }
+    .footer1 div h4{
+        font-size: 15px;
+    }
+    .footer2 div h4{
+        font-size: 15px
+    }
+    .footer1 div p{
+        font-size: 13px;
+    }
+    .footer2 div p{
+        font-size: 13px;
+    }
+    .footer1 div{
+        padding-bottom: 0px;
+    }
+    .footer2 div{
+        padding-top: 5px;
+        padding-left: 25px;
+        padding-right: 20px;
+    }
+}
+
+/*---NOSOTROS---*/
+
+@media screen and (max-width: 1185px){
+    .grid-container-nosotros div h2{
+        font-size: 35px;
+    }
+    .grid-container-nosotros div p{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 930px){
+    .grid-container-nosotros{
+        grid-template-columns: 1fr;
+        grid-auto-rows: 145px;
+    }
+    .background-joyerosdeconfianza{
+        grid-column: span 1;
+        grid-row: span 3;
+    }
+    .background-nosaseguramos{
+        grid-column: span 1;
+        grid-row: span 3;
+    }
+    .background-calidadyestilo{
+        grid-column: span 1;
+        grid-row: span 3;
+    }
+    .background-calidadyestilo{
+        grid-column: span 1;
+        grid-row: span 3;
+    }
+    .background-paratodalavida{
+        grid-column: span 1;
+        grid-row: span 3;
+    }
+    .background-nuestroobjetivo{
+        grid-column: span 1;
+        grid-row: span 3;
+    }
+    .grid-container-nosotros div:nth-child(1){
+        background-color: white;
+        color: rgb(0, 0, 0);
+    }
+    .grid-container-nosotros div:nth-child(2){
+        background-color:  #F8F9FA;
+        color: rgb(0, 0, 0);
+    }
+    .grid-container-nosotros div:nth-child(7){
+        background-color: white;
+        color: rgb(0, 0, 0);
+    }
+    .grid-container-nosotros div:nth-child(8){
+        background-color:  #F8F9FA;
+        color: rgb(0, 0, 0);
+    }
+    .grid-container-nosotros div:nth-child(13){
+        background-color: white;
+        color: rgb(0, 0, 0);
+    }
+    .grid-container-nosotros div:nth-child(14){
+        background-color:  #F8F9FA;
+        color: rgb(0, 0, 0);
+    }
+}
+
+@media screen and (max-width: 840px){
+    .grid-container-nosotros div h2{
+        font-size: 30px;
+    }
+    .grid-container-nosotros div p{
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .grid-container-nosotros div h2{
+        font-size: 25px;
+    }
+    .grid-container-nosotros div p{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .grid-container-nosotros div h2{
+        font-size: 20px;
+    }
+    .grid-container-nosotros div p{
+        font-size: 12px;
+    }
+}
+
