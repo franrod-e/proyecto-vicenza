@@ -1,0 +1,34 @@
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+header{
+    .navbar{
+        img{
+        width: 100px;
+        height: 100px;
+        margin-right: 20px;
+        margin-top: 5px;
+        margin-left: 10px;
+        margin-bottom: 5px;
+        }
+    }
+    .nav-item{
+        transition: 0.2s;
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+    .enlaces{
+        font-family: 'Ysabeau SC', sans-serif;
+        font-size: nth($font-size, 4);
+        padding: 10px;
+        color: $color-secundario;
+        text-decoration: none;
+        &:hover{
+            color: $color-secundario;    
+        }
+    }
+}

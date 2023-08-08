@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@200;300;600&display=swap');
 
+/*---------RESET--------*/
+
 *{
     margin: 0%;
     padding: 0;
@@ -7,6 +9,7 @@
 }
 
 /*---------HEADER--------*/
+
 
 header{
     position: sticky;
@@ -377,14 +380,6 @@ header{
     object-fit: cover;
 }
 
-.img-5{
-    grid-row: span 2;
-}
-
-.img-9{
-    grid-row: span 3;
-}
-
 /*---------ALHAJAS--------*/
 
 .titulo-alhajas{
@@ -455,7 +450,7 @@ header{
     object-fit: cover;
 }
 
-/*---------RELOJES--------*/
+/*---------MATES--------*/
 
 .titulo-mates{
     display: flex;

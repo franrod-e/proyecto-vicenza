@@ -1,0 +1,49 @@
+/*--------FOOTER--------*/
+
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(225,225,225);
+background: linear-gradient(90deg, rgba(225,225,225,1) 0%, rgba(255,255,255,0.7483368347338936) 100%, rgba(255,255,255,1) 100%);
+    img{
+        width: 25px;
+        padding-bottom: 5px;
+    }
+    div{
+        padding: 30px 15px 20px 15px;
+    }
+    a{
+        text-decoration: none;
+        color: $color-secundario;
+    }
+    .footer1{
+        display: flex;
+        justify-content: center;
+        align-items: normal;
+        text-align: center;
+        font-family: 'Ysabeau SC', sans-serif;
+    }
+    .footer2{
+        display: flex;
+        justify-content: center;
+        align-items: normal;
+        text-align: center;
+        font-family: 'Ysabeau SC', sans-serif;
+        div{
+            .direccion{
+                transition: 0.2s;
+                &:hover{
+                transform: scale(1.1);
+                }
+            }
+            .seguinos{
+                transition: 0.2s;
+                &:hover{
+                transform: scale(1.1);
+                }
+            }
+        }
+    }
+}

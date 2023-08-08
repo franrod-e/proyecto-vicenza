@@ -1,0 +1,40 @@
+/*---VARIABLES---*/
+
+$color-primario: #F8F9FA;
+$color-secundario: black;
+$color-terciario: white;
+
+/*---LISTAS---*/
+
+$font-size:
+75px,
+60px,
+45px,
+25px,
+20px,
+15px;
+
+/*---EXTENDS---*/
+
+%gridgaleria{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 350px;
+    gap: 10px;
+}
+
+%gridgaleria2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 350px;
+    gap: 10px;
+}
+
+/*---MIXIN---*/
+
+@mixin flex ($flex, $justify, $align){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
